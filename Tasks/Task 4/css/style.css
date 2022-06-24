@@ -1,0 +1,32 @@
+body{
+    font-size: 30px;
+    color: #7F8487;
+    letter-spacing: 5px;
+}
+.odd{
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+ins + span{
+    text-decoration: overline;
+    letter-spacing: 2px;
+}
+
+.prime{
+    font-weight: bold;
+}
+ins del{
+    box-shadow: 0 0 2px 2px orange;
+}
+ins .prime del {
+    font-size: 35px;
+}
+.pow{
+    color: rgba(251, 0, 146, 0.332);
+}
+.square{
+    opacity: 0;
+}
+.square:hover{
+    opacity: 100;
+}
