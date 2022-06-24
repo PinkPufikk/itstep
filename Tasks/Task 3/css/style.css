@@ -39,12 +39,12 @@ body{
 #blue{
     color: blue;
 }
-yellow{
+#yellow{
     color: rgb(170, 145, 64);
 }
-blue{
+#blue{
     color: rgb(36, 113, 125);
 }
-red{
+#red{
     color: rgb(159, 88, 66);
 }
