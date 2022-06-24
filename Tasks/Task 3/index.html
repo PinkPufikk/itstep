@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Task 3/css/style.css">
+    <title>CSS</title>
+</head>
+
+<body>
+    <h2>Содержание</h2>
+    <ul>
+        <li><a href="#CSS"><img src="../Task 3/img/icons8-css-20.png" alt="">CSS</a></li>
+        <li><a href="#methods">Способы подключения <img src="../Task 3/img/icons8-css-20.png" alt="">CSS к документу</a>
+        </li>
+        <li><a href="#rules">Правила построения <img src="../Task 3/img/icons8-css-20.png" alt="">CSS</a></li>
+        <li><a href="#example">Пример таблицы стилей</a></li>
+    </ul>
+    <ol>
+        <h3 id="CSS">
+            <li><img src="../Task 3/img/icons8-css-20.png" alt="">CSS
+        </h3>
+        <p><strong><img src="../Task 3/img/icons8-css-20.png" alt="">CSS</strong> ( англ. Cascading Style Sheets —
+            каскадные таблицы стилей) — формальный язык описания внешнего вида документа,
+            написанного с использованием языка разметки.
+            Преимущественно используется как средство описания, оформления внешнего вида веб-страниц,
+            написанных с помощью языков разметки <img src="../Task 3/img/icons8-html-20.png" alt="">HTML и XHTML, но
+            может также применяться к любым XML-документам,
+            например, к SVG или XUL.</p>
+        </li>
+        <h3 id="methods">
+            <li>Способы подключения <img src="../Task 3/img/icons8-css-20.png" alt="">CSS к документу
+        </h3>
+        <p>Правила <img src="../Task 3/img/icons8-css-20.png" alt="">CSS пишутся на формальном языке <img
+                src="../Task 3/img/icons8-css-20.png" alt="">CSS и располагаются в таблицах стилей, то есть таблицы
+            стилей содержат в себе правила <img src="../Task 3/img/icons8-css-20.png" alt="">CSS.
+            Эти таблицы стилей могут располагаться как в самом веб-документе, внешний вид которого они описывают, так и
+            в отдельных файлах, имеющих формат <img src="../Task 3/img/icons8-css-20.png" alt="">CSS.
+            (По сути, формат <img src="../Task 3/img/icons8-css-20.png" alt="">CSS — это обычный текстовый файл. В файле
+            .css не содержится ничего, кроме перечня правил <img src="../Task 3/img/icons8-css-20.png" alt="">CSS и
+            комментариев к ним.)
+            То есть, эти таблицы стилей могут быть подключены, внедрены в описываемый ими веб-документ четырьмя
+            различными способами:
+        <ul id="ul-methods">
+            <li>когда таблица стилей находится в отдельном файле, она может быть подключена к веб-документу посредством
+                тега <strong id="green">&lt;link></strong>,
+                располагающегося в этом документе между тегами <strong id="green">&lt;head></strong> и <strong
+                    id="green">&lt;/head></strong>.
+                (Тег <strong id="green">&lt;link></strong> будет иметь атрибут href, имеющий значением адрес этой
+                таблицы стилей).
+                Все правила этой таблицы действуют на протяжении всего документа;<br><br></li>
+            <li>когда таблица стилей находится в отдельном файле, она может быть подключена к веб-документу посредством
+                директивы <strong>@import</strong>,
+                располагающейся в этом документе между тегами <strong id="green">&lt;style></strong> и <strong
+                    id="green">&lt;/style></strong>
+                (которые, в свою очередь, располагаются в этом документе между тегами <strong
+                    id="green">&lt;head></strong> и <strong id="green">&lt;/head></strong>)
+                сразу после тега <strong id="green">&lt;style></strong>, которая также указывает (в своих скобках, после
+                слова url) на адрес этой таблицы стилей.
+                Все правила этой таблицы действуют на протяжении всего документа;<br><br></li>
+            <li>когда таблица стилей описана в самом документе, она может располагаться в нём между тегами <strong
+                    id="green">&lt;style></strong> и <strong id="green">&lt;/style></strong>
+                (которые, в свою очередь, располагаются в этом документе между тегами <strong
+                    id="green">&lt;head></strong> и <strong id="green">&lt;/head></strong>).
+                Все правила этой таблицы действуют на протяжении всего документа;<br><br></li>
+            <li>когда таблица стилей описана в самом документе, она может располагаться в нём в теле какого-то
+                отдельного тега (
+                посредством его атрибута <strong id="blue">style</strong>) этого документа.</li>
+        </ul>
+        Все правила этой таблицы действуют только на содержимое этого тега.</p>
+        </li>
+        <h3 id="rules">
+            <li>Правила построения <img src="../Task 3/img/icons8-css-20.png" alt="">CSS
+        </h3>
+        <p>В первых трёх случаях подключения таблицы <img src="../Task 3/img/icons8-css-20.png" alt="">CSS к документу
+            (см. выше) каждое правило <img src="../Task 3/img/icons8-css-20.png" alt="">CSS из таблицы стилей имеет две
+            основные части —
+            селектор и блок объявлений. Селектор, расположенный в левой части правила, определяет, на какие части
+            документа распространяется правило.
+            Блок объявлений располагается в правой части правила. Он помещается в фигурные скобки, и, в свою очередь,
+            состоит из одного или более объявлений,
+            разделённых знаком «;». Каждое объявление представляет собой сочетание свойства <img
+                src="../Task 3/img/icons8-css-20.png" alt="">CSS и значения, разделённых знаком ": ".
+            Селекторы могут группироваться в одной строке через запятую.
+            В таком случае свойство применяется к каждому из них.</p>
+        </li>
+        <h3 id="example">
+            <li>Пример таблицы стилей
+        </h3>
+        <p>Пример таблицы стилей (в таком виде она может быть либо размещена в отдельном файле .css либо же обрамлена
+            тегами <strong id="green">&lt;style> </strong>
+            и размещена в «шапке» той самой веб-страницы, на которую она действует): </p>
+        <br><br>
+        <pre>
+                <yellow>p {</yellow>
+                    <blue>font-family</blue>: <red>arial</red>, <red>helvetica</red>, <red>sans-serif</red>; 
+                <yellow>}</yellow>
+                <yellow>h2 {</yellow>
+                    <blue>font-size</blue>: <red>20pt</red>; 
+                    <blue>color</blue>: <red>red</red>; 
+                    <blue>background</blue>: <red>white</red>; 
+                <yellow>}</yellow>
+                <yellow>.note {</yellow>
+                    <blue>color</blue>: <red>red</red>; 
+                    <blue>background-color</blue>:<red>  yellow</red>;  <div></div> 
+                    <blue>font-weight</blue>: <red>bold</red>; 
+                <yellow>}</yellow>
+                <yellow>p#paragraph1 {</yellow>
+                    <blue>padding-left</blue>: <red>10px</red>;
+                <yellow>}</yellow>
+            </pre>
+        </li>
+    </ol>
+
+</body>
+
+</html>
