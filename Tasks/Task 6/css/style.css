@@ -1,0 +1,166 @@
+body {
+    background-color: #F9F9F9;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    background-color: #625757;
+}
+.h-ul li{
+    display: block;
+    padding: 30px;
+    margin: 0;
+  }
+.container {
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.h-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+}
+
+.h-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.img1 {
+    float: right;
+}
+
+.img2 {
+    float: left;
+    width: 600px;
+    object-fit: cover;
+}
+
+.img3 {
+    display: block;
+    margin: 0 auto;
+}
+
+table.t1 {
+    margin: 1em auto;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.t1 th,
+.t1 td {
+    padding: 4px 8px;
+}
+
+.t1 thead th {
+    background: #9D8F8F;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.t1 tr {
+    border-right: 1px solid #000;
+}
+
+.t1 tbody tr {
+    border-bottom: 1px solid #000;
+}
+
+.t1 tbody tr:nth-child(odd) {
+    background: #BCBAB8;
+}
+
+.t1 tbody th,
+.t1 tbody tr:nth-child(even) td {
+    border-right: 1px solid #000;
+}
+
+.t1 tfoot th {
+    background: #9D8F8F;
+    text-align: left;
+    font-weight: normal;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.t1 tr *:nth-child(3),
+.t1 tr *:nth-child(4) {
+    text-align: right;
+}
+
+.main-ul li {
+    list-style-type: none;
+    list-style-image: url(../img/icons8-долларовый-обменник-на-карте-10.png);
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Arimo', sans-serif;
+}
+
+h3 {
+    font-style: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.br {
+    display: none;
+}
+
+p {
+    font-style: 14px;
+}
+
+.blue {
+    color: rgb(36, 36, 144);
+    font-weight: bold;
+}
+.red {
+    color: rgb(141, 42, 42);
+    font-weight: bold;
+}
+.yellow {
+    color: rgb(157, 134, 49);
+    font-weight: bold;
+}
+.light-blue {
+    color: rgb(81, 81, 246);
+    font-weight: bold;
+}
+
+.list1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list2 {
+    display: flex;
+    justify-content: space-between;
+}

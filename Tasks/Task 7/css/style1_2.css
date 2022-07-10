@@ -1,0 +1,31 @@
+.block{
+    width: 400px;
+    height: 400px;
+    background: #000;
+    position: fixed;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -200px;
+}
+.inner{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(201, 55, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.inner2{
+    margin: 0 0 0 300px;
+}
+.inner3{
+    margin: 300px 0 0 0;
+}
+.inner4{
+    margin: 300px 0 0 300px;
+}
