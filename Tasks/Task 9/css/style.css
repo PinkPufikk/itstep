@@ -1,0 +1,91 @@
+.container {
+    width: 500px;
+    height: 800px;
+    background: #000;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -400px;
+    top: 50%;
+    position: absolute;
+}
+
+div {
+    position: relative;
+    float: left;
+    text-align: center;
+
+    color: #fff;
+    font-size: 30px;
+}
+
+.header {
+    line-height: 200px;
+}
+
+.header-logo {
+    width: 200px;
+    height: 200px;
+    background: rgb(178, 143, 143);
+
+}
+
+.header-info {
+    width: 300px;
+    height: 200px;
+    background: rgb(95, 77, 77);
+}
+
+.menu {
+    width: 200px;
+}
+
+.products {
+    width: 300px;
+    line-height: 100px;
+}
+
+.product {
+    width: 100px;
+    height: 100px;
+    background: #6e3f27;
+}
+
+.menu-menu {
+    height: 300px;
+    width: 200px;
+    background: rgb(87, 101, 128);
+    line-height: 300px;
+}
+
+.promotion {
+    width: 200px;
+    height: 100px;
+    background: rgb(74, 103, 103);
+    line-height: 100px;
+}
+
+.footer {
+    width: 500px;
+    height: 200px;
+}
+
+.footer-logo {
+    width: 200px;
+    height: 200px;
+    background: rgb(127, 98, 172);
+    line-height: 200px;
+}
+
+.reviews {
+    width: 300px;
+    height: 100px;
+    background: rgb(181, 172, 195);
+    line-height: 100px;
+}
+
+.social {
+    width: 300px;
+    height: 100px;
+    background: rgb(89, 47, 155);
+    line-height: 100px;
+}
