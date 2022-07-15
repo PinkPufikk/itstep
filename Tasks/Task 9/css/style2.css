@@ -1,0 +1,92 @@
+.container {
+    width: 800px;
+    height: 700px;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -350px;
+    top: 50%;
+    position: absolute;
+}
+
+div {
+    position: relative;
+    float: left;
+    text-align: center;
+
+    color: #000;
+    font-size: 30px;
+}
+
+.header {
+    line-height: 100px;
+}
+
+.header-logo {
+    width: 200px;
+    height: 200px;
+    background: #AD8B73;
+    line-height: 200px;
+}
+.info-left, .info-right, .info-center{
+    width: 200px;
+    height: 200px;
+}
+.info{
+    width: 200px;
+    height: 100px;
+    background: #CEAB93;
+
+}
+.menu-left{
+    width: 200px;
+    height: 300px;
+}
+.menu {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    background: #E3CAA5;
+}
+.events{
+    width: 600px;
+    height: 300px;
+}
+.banner{
+    width: 400px;
+    height: 200px;
+    background: #FFFBE9;
+    line-height: 200px;
+}
+.event{
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    background: #E9DAC1;
+}
+.footer-logo{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background: #F7ECDE;
+}
+.footer-info{
+    width: 400px;
+    height: 200px;
+    line-height: 100px;
+}
+.social-icons{
+    width: 400px;
+    height: 100px;
+    background: #FBF8F1;
+}
+.link{
+    width: 200px;
+    height: 100px;
+    background: #C7B198;
+}
+.footer-contacts{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    background: #DFD3C3;
+}
