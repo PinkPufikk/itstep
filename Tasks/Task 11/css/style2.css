@@ -1,0 +1,46 @@
+.box {
+    margin: 5px;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+    position: relative;
+    background: #000;
+}
+.container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media (max-width:769px){
+    .box{
+        width: 100%;
+    }
+}
+@media (min-width:769px){
+    .box{
+        width: calc(33.33333333% - 10px);
+    }
+    .container{
+        width: 769px;
+    }
+}
+@media (min-width:1024px){
+    .box{
+        width: calc(25% - 10px);
+    }
+    .container{
+        width: 1024px;
+    }
+}
+@media (min-width:1280px){
+    .box{
+        width: calc(16.6666667% - 10px);
+    }
+    .container{
+        width: 1280px;
+    }
+}

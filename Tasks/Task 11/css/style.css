@@ -1,0 +1,46 @@
+/* 768 красн четн    1860  */
+.container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.box {
+    margin: 5px;
+    width: 14.2857143%;
+    height: auto;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+    position: relative;
+    
+}
+.box:nth-child(odd) {
+    background-color: #0000ff;
+}
+.box:nth-child(even) {
+    background-color: #ff0000;
+}
+
+
+@media (max-width:1281px){
+    .box:nth-child(odd) {
+        display: none;
+    }
+    .box {
+        width: 100%;
+    }
+}
+@media (max-width:769px){
+    .box:nth-child(odd) {
+        display: block;
+    }
+    .box:nth-child(even) {
+        display: none;
+    }
+    .box {
+        width: 20%;
+    }
+}
