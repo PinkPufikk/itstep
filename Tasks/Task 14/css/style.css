@@ -1,0 +1,178 @@
+.portfolio {
+    background: #000;
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-title h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-title h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.images {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .images img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .images img {
+        width: 25%;
+    }
+}
+
+
+.container {
+    flex-direction: column;
+}
+
+.map-img img {
+    width: 70%;
+}
+
+.map-img {
+    text-align: center;
+}
+
+
+
+.map-information h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin: 20px 20px 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.map-information h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 15px 20px 0;
+    font-weight: normal;
+}
+
+
+.map-information p,
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    max-width: 450px;
+}
+
+.map-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    border: 1;
+    padding: 10px 30px 10px 30px;
+    background: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .map-img img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+.contacts {
+    background: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address {
+    width: 50%;
+    text-align: center;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phones {
+    width: 50%;
+    text-align: center;
+    padding: 30px 60px;
+    line-height: 25px;
+}
+
+.address p {
+    font-size: 18px;
+
+}
+
+.address h2 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    width: 300px;
+
+}
+
+.phones h1 {
+    font-size: 36px;
+}
