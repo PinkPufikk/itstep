@@ -1,4 +1,4 @@
-.body {
+.cat1 .body {
     width: 200px;
     height: 250px;
     border: 4px solid black;
@@ -9,7 +9,7 @@
     margin-top: 40px;
 }
 
-.ears-border {
+.cat1 .ears-border {
     display: flex;
     width: 208px;
     justify-content: space-between;
@@ -17,7 +17,7 @@
     z-index: 1;
 }
 
-.ears {
+.cat1 .ears {
     display: flex;
     width: 208px;
     justify-content: space-between;
@@ -25,21 +25,21 @@
     z-index: 3;
 }
 
-.ear-left-border {
+.cat1 .ear-left-border {
     width: 0;
     height: 0;
     border-bottom: 80px solid #000000;
     border-right: 80px solid transparent;
 }
 
-.ear-right-border {
+.cat1 .ear-right-border {
     width: 0;
     height: 0;
     border-bottom: 80px solid #000000;
     border-left: 80px solid transparent;
 }
 
-.ear-left {
+.cat1 .ear-left {
     width: 0;
     height: 0;
     border-bottom: 67px solid #bfbfbd;
@@ -49,7 +49,7 @@
 
 }
 
-.ear-right {
+.cat1 .ear-right {
     width: 0;
     height: 0;
     border-bottom: 67px solid #bfbfbd;
@@ -79,21 +79,21 @@
     rotate: 180deg;
 }
 
-.eye-left {
+.cat1 .eye-left {
     width: 10px;
     height: 10px;
     background: #000;
     border-radius: 50%;
 }
 
-.eye-right {
+.cat1 .eye-right {
     width: 10px;
     height: 10px;
     background: #000;
     border-radius: 50%;
 }
 
-.eyes {
+.cat1 .eyes {
     display: flex;
     width: 120px;
     margin-left: 40px;
@@ -102,7 +102,7 @@
 
 }
 
-.nose {
+.cat1 .nose {
     width: 0;
     height: 0;
     margin-left: 88px;
@@ -147,7 +147,7 @@
     border-right: none;
 }
 
-.mouth {
+.cat1 .mouth {
     width: 20px;
     height: 10px;
     border-radius: 0 0 50% 50% / 0 0 100% 100%;
@@ -467,7 +467,7 @@
     rotate: -50deg;
 }
 
-.tail-border {
+.cat1 .tail-border {
     width: 125px;
     height: 40px;
     background: #000000;
@@ -478,7 +478,7 @@
     position: fixed;
 }
 
-.tail {
+.cat1 .tail {
     width: 115px;
     height: 30px;
     background: #bfbfbd;
