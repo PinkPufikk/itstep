@@ -1,5 +1,3 @@
-
-
 .head-border {
     width: 108px;
     height: 108px;
@@ -18,7 +16,7 @@
     margin-top: 35px;
     background: #a49682;
     border-radius: 108px/168px;
-    rotate: 20deg;
+    transform: rotate(20deg);
 }
 
 .cheek2-border {
@@ -28,7 +26,7 @@
     margin-top: -77px;
     background: #a49682;
     border-radius: 108px/168px;
-    rotate: -20deg;
+    transform: rotate(-20deg);
 }
 
 .head {
@@ -51,7 +49,7 @@
     margin-top: 35px;
     background: #f3edd6;
     border-radius: 100px/160px;
-    rotate: 20deg;
+    transform: rotate(20deg);
 }
 
 .cheek2 {
@@ -61,7 +59,7 @@
     margin-top: -67px;
     background: #f3edd6;
     border-radius: 100px/160px;
-    rotate: -20deg;
+    transform: rotate(-20deg);
 }
 
 .cat2 .ear-right {
@@ -71,7 +69,7 @@
     margin-top: -7px;
     background: #d5c0aa;
     border-radius: 100px/140px;
-    rotate: -20deg;
+    transform: rotate(-20deg);
     position: fixed;
     z-index: 3;
     filter: blur(2px);
@@ -84,7 +82,7 @@
     margin-top: -12px;
     background: #a49682;
     border-radius: 108px/148px;
-    rotate: -20deg;
+    transform: rotate(-20deg);
     position: fixed;
     filter: blur(1px);
 }
@@ -96,7 +94,7 @@
     margin-top: -6px;
     background: #d5c0aa;
     border-radius: 100px/140px;
-    rotate: -20deg;
+    transform: rotate(-20deg);
     position: fixed;
     z-index: 3;
     filter: blur(2px);
@@ -108,7 +106,7 @@
     margin-top: -10px;
     background: #a49682;
     border-radius: 108px/148px;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     position: fixed;
     filter: blur(1px);
 }
@@ -120,7 +118,7 @@
     margin-top: 1px;
     background: #f4beae;
     border-radius: 100px/100px;
-    rotate: 50deg;
+    transform: rotate(50deg);
     position: fixed;
     z-index: 3;
     filter: blur(2px);
@@ -133,7 +131,7 @@
     margin-top: 1px;
     background: #f4beae;
     border-radius: 100px/100px;
-    rotate: -30deg;
+    transform: rotate(-30deg);
     position: fixed;
     z-index: 3;
     filter: blur(2px);
@@ -146,7 +144,7 @@
     margin-top: 17px;
     background: #f3edd6;
     border-radius: 100px/50px;
-    rotate: -30deg;
+    transform: rotate(-30deg);
     position: fixed;
     z-index: 3;
     filter: blur(2px);
@@ -159,7 +157,7 @@
     margin-top: 13px;
     background: #f3edd6;
     border-radius: 100px/50px;
-    rotate: 40deg;
+    transform: rotate(40deg);
     position: fixed;
     z-index: 3;
     filter: blur(2px);
@@ -198,7 +196,7 @@
     margin-top: 24px;
     background: #b99f8a;
     border-radius: 100px/80px;
-    rotate: -40deg;
+    transform: rotate(-40deg);
     position: fixed;
     filter: blur(6px);
     position: fixed;
@@ -212,7 +210,7 @@
     margin-top: 52px;
     background: #412829;
     border-radius: 100px/80px;
-    /* rotate: -40deg; */
+    /* transform: rotate( -40deg); */
     position: fixed;
     filter: blur(2px);
     position: fixed;
@@ -226,7 +224,7 @@
     margin-top: 48px;
     background: #412829;
     border-radius: 100px/80px;
-    /* rotate: -40deg; */
+    /* transform: rotate( -40deg); */
     position: fixed;
     filter: blur(2px);
     position: fixed;
@@ -240,7 +238,7 @@
     margin-top: 50px;
     background: #412829;
     border-radius: 100px/80px;
-    /* rotate: -40deg; */
+    /* transform: rotate( -40deg); */
     position: fixed;
     filter: blur(2px);
     position: fixed;
@@ -254,7 +252,7 @@
     margin-top: 45px;
     background: #412829;
     border-radius: 100px/80px;
-    /* rotate: -40deg; */
+    /* transform: rotate( -40deg); */
     position: fixed;
     filter: blur(2px);
     position: fixed;
@@ -269,7 +267,7 @@
     margin-left: 62px;
     margin-top: 60px;
     filter: blur(1px);
-    rotate: -10deg;
+    transform: rotate(-10deg);
     position: fixed;
     z-index: 3;
 }
@@ -285,7 +283,7 @@
     filter: blur(1px);
     position: fixed;
     z-index: 3;
-    rotate: -10deg;
+    transform: rotate(-10deg);
 }
 
 .cat2 .mouth2 {
@@ -300,7 +298,7 @@
     transform: scale(-1, 1);
     position: fixed;
     z-index: 3;
-    rotate: -10deg;
+    transform: rotate(25deg);
 }
 
 .whisker1 {
@@ -315,7 +313,7 @@
     transform: scale(1, 1);
     position: fixed;
     z-index: 3;
-    rotate: 180deg;
+    transform: rotate(180deg);
 }
 
 .whisker2 {
@@ -330,7 +328,7 @@
     transform: scale(1, 1);
     position: fixed;
     z-index: 3;
-    rotate: 210deg;
+    transform: rotate(210deg);
 }
 
 .whisker3 {
@@ -345,7 +343,7 @@
     transform: scale(-1, 1);
     position: fixed;
     z-index: 3;
-    rotate: 170deg;
+    transform: rotate(170deg);
 }
 
 .whisker4 {
@@ -360,7 +358,7 @@
     transform: scale(-1, 1);
     position: fixed;
     z-index: 3;
-    rotate: 140deg;
+    transform: rotate(140deg);
 }
 
 .cat2 .body-border {
@@ -371,7 +369,7 @@
     margin-left: -17px;
     margin-top: 20px;
     filter: blur(1px);
-    rotate: 80deg;
+    transform: rotate(80deg);
     position: fixed;
     z-index: 1;
 }
@@ -384,7 +382,7 @@
     margin-left: -14px;
     margin-top: 23px;
     filter: blur(2px);
-    rotate: 80deg;
+    transform: rotate(80deg);
     position: fixed;
     z-index: 2;
 }
@@ -408,7 +406,7 @@
     background: #a49682;
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     filter: blur(1px);
 }
 
@@ -431,7 +429,7 @@
     background: #c1ad9b;
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     filter: blur(1px);
 }
 
@@ -457,7 +455,7 @@
     background: #a49682;
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     filter: blur(1px);
 }
 
@@ -480,7 +478,7 @@
     background: linear-gradient(#f3edd6, #c1ad9b);
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     filter: blur(1px);
 }
 
@@ -494,7 +492,7 @@
     z-index: 2;
     margin-left: -30px;
     margin-top: 27px;
-    rotate: 2deg;
+    transform: rotate(2deg);
 }
 
 .paw3-border1 {
@@ -516,7 +514,7 @@
     background: #a49682;
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     filter: blur(1px);
 }
 
@@ -539,10 +537,11 @@
     background: #c1ad9b;
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     filter: blur(1px);
 }
-.paw3{
+
+.paw3 {
     position: fixed;
     margin-left: -75px;
     margin-top: 2px;
@@ -571,7 +570,7 @@
     background: #a49682;
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     filter: blur(1px);
 }
 
@@ -594,17 +593,19 @@
     background: linear-gradient(#f3edd6, #c1ad9b);
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -10deg;
+    transform: rotate(-10deg);
     filter: blur(3px);
 }
-.paw4{
+
+.paw4 {
     position: fixed;
     z-index: 2;
     margin-left: -80px;
     margin-top: 23px;
-    rotate: 5deg;
+    transform: rotate(5deg);
 }
-.claw1{
+
+.claw1 {
     width: 4px;
     height: 2px;
     margin-left: 87px;
@@ -616,9 +617,10 @@
     transform: scale(1, -1);
     position: fixed;
     z-index: 3;
-    rotate: 70deg;
+    transform: rotate(70deg);
 }
-.claw2{
+
+.claw2 {
     width: 3px;
     height: 2px;
     margin-left: 81px;
@@ -630,9 +632,10 @@
     transform: scale(1, -1);
     position: fixed;
     z-index: 3;
-    rotate: 70deg;
+    transform: rotate(70deg);
 }
-.claw3{
+
+.claw3 {
     width: 3px;
     height: 2px;
     margin-left: 75px;
@@ -644,16 +647,18 @@
     transform: scale(1, -1);
     position: fixed;
     z-index: 3;
-    rotate: 70deg;
+    transform: rotate(70deg);
 }
-.paw2 .claws{
-    margin-top: -20px;
-}
-.paw4 .claws{
+
+.paw2 .claws {
     margin-top: -20px;
 }
 
-.tail1-border{
+.paw4 .claws {
+    margin-top: -20px;
+}
+
+.tail1-border {
     width: 28px;
     height: 48px;
     margin-left: -85px;
@@ -661,10 +666,11 @@
     background: #a49682;
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -20deg;
+    transform: rotate(-20deg);
     filter: blur(1px);
 }
-.tail2-border{
+
+.tail2-border {
     width: 28px;
     height: 48px;
     margin-left: -75px;
@@ -672,56 +678,59 @@
     background: #a49682;
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -40deg;
+    transform: rotate(-40deg);
     filter: blur(1px);
 }
-.cat2 .tail-border{
+
+.cat2 .tail-border {
     margin-left: 10px;
 }
-.tail1{
+
+.tail1 {
     width: 20px;
     height: 48px;
     margin-left: -81px;
     margin-top: 54px;
-    background: linear-gradient(#c1ad9b , #f3edd6);
+    background: linear-gradient(#c1ad9b, #f3edd6);
     border-radius: 108px/148px;
     position: fixed;
-    rotate: -20deg;
+    transform: rotate(-20deg);
     filter: blur(1px);
 }
-.tail2{
+
+.tail2 {
     width: 20px;
     height: 38px;
     margin-left: -69px;
     margin-top: 80px;
-    /* background: #f3edd6; */
-    background: linear-gradient(#dfd3be , #f3edd6);
+    background: linear-gradient(#dfd3be, #f3edd6);
     border-radius: 108px/148px;
     position: fixed;
     z-index: 3;
-    rotate: -40deg;
+    transform: rotate(-40deg);
     filter: blur(1px);
 }
-.tail3{
+.tail3 {
     width: 20px;
     height: 20px;
     margin-left: -60px;
-    margin-top:94px;
-    background: linear-gradient(#eae3cd , #f3edd6);
+    margin-top: 94px;
+    background: linear-gradient(#eae3cd, #f3edd6);
     border-radius: 108px/148px;
     position: fixed;
     z-index: 3;
-    rotate: -60deg;
+    transform: rotate(-60deg);
     filter: blur(1px);
 }
-.cat2 .tail{
+
+.cat2 .tail {
     margin-left: 10px;
 }
 
 
 
 
-body{
+body {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
